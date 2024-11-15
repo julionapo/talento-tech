@@ -1,0 +1,78 @@
+
+
+
+body h1{
+    color: red;
+    text-align: center;
+}
+
+header{
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.card-img-top{
+    justify-items: center;
+   
+}
+.card-img-top2{
+   
+    padding-left: 50px;
+}
+.card-img-top2{
+    padding-left: 210px;
+}
+.imagen3{
+    padding-left: 145px;
+   
+}
+
+main{
+    display: flex;
+    justify-content:space-around;
+   
+}
+.fila22{
+  
+    padding-left: 150px;
+}
+.card-title2{
+    border: 2px solid;
+    padding-right: 20px;
+}
+.card-text{
+    color:#FFFFE0 ;
+}
+.fila23{
+    padding-left: 90px;
+}
+
+.alimento{
+    display: flex;
+    
+    justify-content:space-around;
+    /*background-color: cyan;*/
+}
+.card-img-top{
+ 
+    padding-left: 175px;
+}
+.card-img-top3{
+    
+    padding-left: 220px;
+}
+
+
+.col-md-4 img{
+    height: 200px;
+    
+}
+
+.card-body{
+   
+    padding-left: 220px;
+}
+
+
+

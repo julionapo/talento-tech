@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black
+  
+    
+}
+main{
+    background: linear-gradient(to bottom, black,grey);
+}
+.encabezado-container{
+    display: flex;
+    /*border: 2px gold solid;*/
+    justify-content:space-around;
+    background: black
+}
+
+.logo-container img{
+  height: 35vh;
+  width: 15vw;
+  background-color: #7D0303;
+  ;
+ /* border: 2px solid black;*/
+    
+}
+.nombre-container{
+    width: 80vw;
+    /*order: 2px solid red;*/
+    
+   
+}
+
+.nombre-container h1{
+    /*font-family:"Sixtyfour Convergence", sans-serif ;*/
+    font-size:28px;
+   
+    height: 50%;
+   
+    padding-top: 6%;
+    padding-left: 5%;
+    font-family: "Bungee Spice", sans-serif;
+   
+    font-style: normal;
+}        
+      
+nav{
+    height: 200px;
+    font-size: 20px;
+
+}
+.menu-h{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    /*border: 2px solid black ;*/
+    
+}
+.menu-h >li >a{
+    display: block;
+    padding: 15px 20px;
+    color:red;
+    text-decoration: none;
+    
+}
+.menu-h > li:hover .menu-v{
+    display: red;
+}
+.menu-v{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+   /* background-color: rgba(0,0,0,1.0);*/
+}
+.menu-h li:hover .menu-v{
+    display: block;
+}
+.menu-v li:hover{
+    background-color: black;
+}
+.menu-v li a{
+    display: block;
+    color:orange;
+    padding: 15px 15px 15px 20px;
+}
+
+main{
+    margin-top: 100px;
+}
+.titulo-oferta{
+    text-align: center;
+    color: #FFFFE0;
+    
+}
+
+.oferta-container{
+    /*background-color: aqua;*/
+    display: flex;
+    margin-top: 100px;
+    
+    justify-content: space-between
+
+}
+.oferta-container p{
+    color: #FFFFE0;
+}
+
+.cardg{
+    text-align: center;
+}
+
+.carda{
+    /*background-color: yellow;*/
+    text-align: center;
+}
+
+.cardp{
+    text-align: center;
+}
+
+.footer {
+    /*background-color: #bdaed8;*/
+    color:#FFFFE0;
+    padding: 20px ;
+}
+
+.mapa-container{
+    padding: 50px ;
+    /*border: 3px solid red;*/
+    padding-left: 300px;
+}
+
+.mapa-titulo{
+    padding: 50px ;
+    height: 100px;
+    text-align: center;
+    color: #FFFFE0;
+}
+.text-center{
+    color: #FFFFE0;
+}
+
+.form-group{
+    color: #FFFFE0;
+}
+
+.form-container {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

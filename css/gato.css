@@ -1,0 +1,30 @@
+
+
+body h1{
+    color: red;
+    text-align: center;
+}
+
+header{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color:burlywood;
+}
+
+.alimento{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.col-md-4 img{
+    height: 200px;
+    
+}
